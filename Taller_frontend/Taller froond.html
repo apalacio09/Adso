@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">HERMES CRM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cuentas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cotización
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<body>
+  <div class="container" style="background-color:blanchedalmond;">
+      <h1 class="text-center"> Cuentas de clientes Activos</h1>
+  </div>
+  <div class="container my-3">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 bg-white">
+        <h2>Registro de Cuentas</h2>
+        <div class="action">
+          <div class="mb-3">
+            <label for="Nit" class="form-label">Nit</label>
+            <input type="text" class="form-control" id="Nit" placeholder="Digite el numero Nit">
+          </div>
+          <div class="mb-3">
+            <label for="Nombre de la empresa" class="form-label">Nombre de la empresa</label>
+            <input type="text" class="form-control" id="Nombre de la empresa" placeholder="Nombre de la empresa">              
+          </div>
+          <div class="mb-3">
+            <label for="Nombre del comercial" class="form-label">Nombre del comercial</label>
+            <input type="text" class="form-control" id="Nombre del comercial" placeholder="Nombre del comercial">              
+          </div>
+          <div class="mb-3">
+            <label for="Direccion" class="form-label">Direccion</label>
+            <input type="text" class="form-control" id="Direccion" placeholder="Direccion">              
+          </div>
+          <div class="d-grid gap-2">
+            <button class="btn btn-success" type="button">Guardar</button>
+            <button class="btn btn-primary" type="button">Limpiar</button>
+          </div>
+        <hr>
+        </div>  
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 bg-white">
+          <h2>Listado de contactos</h2>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th class="centrado">Nit</th>
+                <th class="centrado">Nombre de la empresa</th>
+                <th class="centrado">Nombre del comercial</th>
+                <th class="centrado">Estado</th>
+                <th class="centrado">Direccion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="centrado">98567895</td>
+                <td class="centrado">Variadades ABC</td>
+                <td class="centrado">Vanessa Jurado</td>
+                <td class="centrado">Activo</td>
+                <td class="centrado">calle 80#234b</td>
+              </tr>
+              <tr>
+                <td class="centrado">9987654532</td>
+                <td class="centrado">Mil Cositas</td>
+                <td class="centrado">Jorge caicedo</td>
+                <td class="centrado">Activo</td>
+                <td >cra 139 calle140#24</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> </script>
+</body>
+
+</html>
